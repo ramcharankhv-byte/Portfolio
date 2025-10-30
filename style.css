@@ -29,6 +29,18 @@ body {
   font-family: 'Times New Roman', Times, serif;
   z-index: 1500;
 }
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #E63946;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  padding: 15px 20px;
+  z-index: 1000;
+}
 
 
 #navbar a {
@@ -251,4 +263,10 @@ body {
     justify-content: center;
     text-align: center;
   }
+  .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
 }
