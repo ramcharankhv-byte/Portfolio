@@ -27,6 +27,7 @@ body {
 
 #header h2 {
   font-family: 'Times New Roman', Times, serif;
+  z-index: 1500;
 }
 
 
@@ -232,4 +233,22 @@ body {
   .about-skills { flex-direction: column; }
   .skills-top { flex-direction: column; }
   #welcome-section { min-height: auto; }
+}
+@media (max-width: 768px){
+  #header{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  #header h2{
+    margin-top: 5px;
+  }
+  
+  #navbar{
+    margin-top:20px;
+    justify-content: center;
+    text-align: center;
+  }
 }
