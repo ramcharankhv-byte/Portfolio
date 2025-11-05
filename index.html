@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="style.css">
   <style>
-  
+
   </style>
 </head>
+
 <body>
 
   <!-- ===== HEADER ===== -->
   <header id="header">
     <h2>My Space</h2>
     <nav id="navbar">
-      <a href="#welcome-section">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#Contact" id="profile-link">Contact</a>
+      <a href="#welcome-section" class="animate__animated animate__backInDown">Home</a>
+      <a href="#projects" class="animate__animated animate__backInDown">Projects</a>
+      <a href="#Contact" id="profile-link" class="animate__animated animate__backInDown">Contact</a>
     </nav>
   </header>
 
   <!-- ===== WELCOME SECTION ===== -->
   <section id="welcome-section">
-    <h1>Welcome</h1>
+    <h1 class="animate__animated animate__backInLeft">Welcome</h1>
     <div class="about-skills">
-      
+
       <!-- About Me -->
       <div class="about">
         <h2>About Me</h2>
         <p>
-          Hi! I’m <strong>KHV Sai Ram Charan</strong>, a passionate Computer Science Engineering student at Andhra University, 
-          currently in my first year of B.Tech. I’m focused on building a strong foundation in programming and web development 
+          Hi! I’m <strong>KHV Sai Ram Charan</strong>, a passionate Computer Science Engineering student at Andhra
+          University,
+          currently in my first year of B.Tech. I’m focused on building a strong foundation in programming and web
+          development
           with a long-term goal to master Full-Stack, Data Science, AI, and Networking.
         </p>
       </div>
@@ -74,9 +79,9 @@
   <!-- ===== PROJECTS SECTION ===== -->
   <section id="projects" class="py-5 text-center bg-dark text-light">
     <div class="container">
-      <h2 class="mb-5 text-danger">My Projects</h2>
+      <h2 class="mb-5 text-danger animate__animated  hidden">My Projects</h2>
       <div class="row g-4">
-        
+
         <!-- 6 Square Projects -->
         <div class="col-lg-4 col-md-6">
           <div class="project-tile square p-3">
@@ -149,24 +154,25 @@
             <img src="amazon-cloner.jpg" alt="Project 9" class="img-fluid rounded mb-2">
             <h4>Amazon-Clone</h4>
             <p>An Amazon-Clone for educational purpose.</p>
-            <a href="https://ramcharankhv-byte.github.io/shopping_site/" target="_blank">View</a>
+            <a href="https://codepen.io/ramcharan-khv/full/yyeqqWb" target="_blank">View</a>
           </div>
         </div>
       </div>
     </div>
   </section>
- <section id="Contact">
-  <h1>Let's work together...</h1>
-  <div class="social-links">
-    <a href="https://www.linkedin.com/in/ramcharan-k-752010382/" target="_blank"><i class="fab fa-linkedin"></i> Linked in</a>
-    <a href="https://github.com/ramcharankhv-byte" target="_blank"><i class="fab fa-github"></i> Git Hub</a>
-    <a href="https://www.instagram.com/vampire.being/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-  </div>
-</section>
+  <section id="Contact">
+    <h1 class="animate__animated hidden">Let's work together...</h1>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/ramcharan-k-752010382/" target="_blank"><i class="fab fa-linkedin"></i>
+        Linked in</a>
+      <a href="https://github.com/ramcharankhv-byte" target="_blank"><i class="fab fa-github"></i> Git Hub</a>
+      <a href="https://www.instagram.com/vampire.being/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+  </section>
 
-<!-- Font Awesome Icons -->
+  <!-- Font Awesome Icons -->
 
-
+<script src="script.js"></script>
 </body>
-</html>
 
+</html>
